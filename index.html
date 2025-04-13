@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMD IoT - Your Gateway to IoT Solutions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        /* Mobile first */
+        [class*="col-"] {
+            width: 100%;
+        }
+        /* Header section */
+        .header {
+            background-color: #007bff; /* Updated to a more modern blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .header p {
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+        /* Menu section */
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu li {
+            padding: 12px;
+            margin-bottom: 10px;
+            background-color: #343a40; /* Darker background for menu items */
+            color: white;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+        }
+        .menu li:hover {
+            background-color: #23272b; /* Slightly lighter on hover */
+        }
+        .menu li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            display: block; /* Make the whole li clickable */
+        }
+        /* Main content section */
+        .main-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .main-content h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        .main-content p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        .main-content ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .main-content li{
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        /* Aside section */
+        .aside {
+            background-color: #e9ecef; /* Light background for aside */
+            padding: 20px;
+            text-align: center;
+            font-size: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .aside h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #2c3e50;
+        }
+        .aside p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        /* Footer section */
+        .footer {
+            background-color: #343a40; /* Dark footer */
+            color: white;
+            text-align: center;
+            font-size: 0.9rem;
+            padding: 20px;
+            margin-top: 20px;
+            border-top: 1px solid #495057;
+        }
+        /* Media queries for responsiveness */
+        @media (min-width: 768px) {
+            .col-md-4 { width: 33.33%; }
+            .col-md-8 { width: 66.66%; }
+            .menu li {
+                display: inline-block;
+                width: auto;
+                margin-right: 10px;
+                margin-bottom: 0;
+            }
+            .menu ul {
+                text-align: center;
+            }
+        }
+        @media (min-width: 992px) {
+            .col-lg-3 { width: 25%; }
+            .col-lg-6 { width: 50%; }
+            .col-lg-9 { width: 75%; }
+            .header h1{
+                font-size: 3rem;
+            }
+            .header p{
+                font-size: 1.2rem;
+            }
+            .main-content h2{
+                font-size: 2.5rem;
+            }
+             .main-content p{
+                font-size: 1.1rem;
+            }
+            .aside h2{
+                font-size: 1.8rem;
+            }
+            .aside p{
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Rasiklal M. Dhariwal Institute of Technology, Chinchwad</h1>
+        <p>Your Partner in Innovative IoT Solutions</p>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#departments">Departments</a></li>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="row">
+        <main class="col-lg-8 col-md-8 col-sm-12 main-content" id="about">
+            <h2>About Us</h2>
+            <p>
+                Welcome to Rasiklal M. Dhariwal Institute of Technology, a leading provider of cutting-edge technical education.  We are dedicated to transforming students and enhancing their skills. With a passion for innovation and a commitment to excellence, we deliver quality education that meets the needs of the industry.
+            </p>
+            <p>
+                At RMD IoT, we believe in the transformative potential of technical knowledge and practical skills. Our team of experts combines deep industry knowledge with technical expertise to design, develop, and deliver educational opportunities that drive efficiency, productivity, and growth in our students.
+            </p>
+
+            <h2>Our Vision</h2>
+             <p>To be a global leader in technical education, empowering individuals with innovative and sustainable solutions.</p>
+
+            <h2>Our Mission</h2>
+            <p>
+                To design, develop, and deliver high-quality, reliable, and cost-effective educational programs that address real-world challenges and create value for our students and society.
+            </p>
+        </main>
+        <aside class="col-lg-4 col-md-4 col-sm-12 aside" id="contact">
+            <h2>Contact Us</h2>
+            <p>
+                <strong>Address:</strong><br>
+                 Near Chhatrapati Shahu Maharaj Chowk,<br>
+                Pune-Bangalore Highway, Tathawade, Pune - 411033
+            </p>
+            <p>
+                <strong>Email:</strong><br>
+                info@rmdiot.in
+            </p>
+            <p>
+               <strong>Phone:</strong><br>
+                +91 7447789167
+            </p>
+        </aside>
+    </div>
+
+    <div class="row" id="departments">
+        <main class="col-lg-8 col-md-8 col-sm-12 main-content">
+            <h2>Departments</h2>
+            <p>
+               RMD IoT is organized into various departments, each specializing in a specific area of study and support.
+            </p>
+            <ul>
+                <li>Automobile Engineering</li>
+                <li>Computer Engineering</li>
+                <li>Artificial Intelligence and Machine Learning</li>
+                <li>Mechanical Engineering</li>
+                <li>Basic Science</li>
+                <li>Library</li>
+                <li>Workshop</li>
+                <li>Administration Department</li>
+            </ul>
+        </main>
+         <aside class="col-lg-4 col-md-4 col-sm-12 aside">
+             <h2>About RMD IoT</h2>
+                <p>
+                    RMD IoT is dedicated to providing quality technical education and fostering a learning environment that encourages innovation and excellence.
+                </p>
+         </aside>
+    </div>
+
+    <div class="row" id="programs">
+        <main class="col-lg-12 col-md-12 col-sm-12 main-content">
+            <h2>Programs Offered</h2>
+             <p>
+               RMD IoT offers a range of programs.
+            </p>
+            <ul>
+                 <li>Artificial Intelligence & Machine Learning Engg.</li>
+                  <li>Computer Engg.</li>
+                  <li>Mechanical Engg.</li>
+                  <li>Automobile Engg.</li>
+            </ul>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 RMD IoT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
